@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>com.warren</groupId>
 	<artifactId>real-estate-ai</artifactId>
@@ -55,8 +55,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
-
+		<dependency>
+    		<groupId>org.tensorflow</groupId>
+    		<artifactId>tensorflow-core-platform</artifactId>
+    		<version>0.5.0</version>
+		</dependency>
+		</dependencies>
 	<build>
 		<plugins>
 			<plugin>
@@ -65,5 +69,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
