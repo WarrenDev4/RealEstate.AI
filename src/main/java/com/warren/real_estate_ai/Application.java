@@ -15,10 +15,9 @@ public class Application {
     @Controller
     public class HomeController {
 
-        // Serve the React app's index.html
         @GetMapping("/")
         public String home() {
-            return "index.html"; // No need for forward: if it's in static folder
+            return "index.html"; 
         }
     }
 }
