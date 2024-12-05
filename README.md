@@ -3,4 +3,4 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 
 **Tools be used for this project: Spring Boot, TensorFlow, React.js, MySQL, Artificial Intelligence, D3.js, Apache Spark**
 
-**This project is currently being worked on.**
+**This project is currently Work in Progress.**
