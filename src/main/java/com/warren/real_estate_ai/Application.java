@@ -17,7 +17,7 @@ public class Application {
 
         @GetMapping("/")
         public String home() {
-            return "index"; 
+            return "index.html"; 
         }
     }
 }
