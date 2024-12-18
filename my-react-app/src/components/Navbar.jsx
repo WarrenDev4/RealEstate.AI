@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/" className="navbar-brand">
-        <img src="/images/RealEstate.AI Logo White.png" alt="RealEsate.AI Logo" height="45" width="245"></img>
+        <img src="/images/RealEstate.AI Logo White.png" alt="RealEsate.AI Logo" height="45" width="220"></img>
       </a>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <a href="/">Home</a>
