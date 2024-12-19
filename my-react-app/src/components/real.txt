@@ -1,0 +1,5 @@
+<a href="/">Home</a>
+        <a href="/market-trends">Trends</a>
+        <a href="/property-valuations">Properties</a>
+        <a href="/neighborhood-analysis">Neighborhoods</a>
+        <a href="/investment-forecasting">Investments</a>

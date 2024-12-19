@@ -8,20 +8,12 @@ import Neighborhoods from './pages/Neighborhoods';
 import Investments from './pages/Investments';
 import logo from './logo.svg';
 import './App.css';
+import LandingPageNav from './components/LandingPageNav';
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <div className="container mx-auto mt-8">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/market-trends" element={<Trends />} />
-          <Route path="/property-valuations" element={<Properties />} />
-          <Route path="/neighborhood-analysis" element={<Neighborhoods />} />
-          <Route path="/investment-forecasting" element={<Investments />} />
-        </Routes>
-      </div>
+      <LandingPageNav />
     </Router>
   );
 };
