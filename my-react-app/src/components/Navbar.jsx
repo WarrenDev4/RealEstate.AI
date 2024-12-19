@@ -14,10 +14,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="/" className="navbar-brand">
-        <img src="/images/RealEstate.AI Logo White.png" alt="RealEsate.AI Logo" height="45" width="220"></img>
+        <img src="/images/RealEstate.AI Logo White.png" alt="RealEsate.AI Logo" class="realestatelogo" height="45" width="220"></img>
       </a>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
-        <a href="/">Home</a>
+      <a href="/">Home</a>
         <a href="/market-trends">Trends</a>
         <a href="/property-valuations">Properties</a>
         <a href="/neighborhood-analysis">Neighborhoods</a>
