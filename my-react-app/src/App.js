@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <LandingPageNav />
+      <img src="/images/Home Logo.jpg" alt="Home" className="House" />
     </Router>
   );
 };
