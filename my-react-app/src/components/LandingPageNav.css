@@ -25,30 +25,7 @@
   }
   
   .realestateblack {
-    margin-left: 120px;
+    margin-left: 615px;
     margin-top: 10px;  
-  }
-
-  @media (max-width: 768px) {
-    .landingnavbar-links {
-      display: none; 
-      flex-direction: column;
-      background-color: #333;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      width: 200px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-      z-index: 999;
-    }
-  
-    .landingnavbar-links.active {
-      display: flex; 
-    }
-  
-    .menu-btn {
-      display: block;
-      color: #fff;
-    }
   }
   
