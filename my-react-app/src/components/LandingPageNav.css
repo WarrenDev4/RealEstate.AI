@@ -28,4 +28,8 @@
     margin-left: 615px;
     margin-top: 10px;  
   }
-  
+
+  body {
+    background: rgb(21, 27, 33);
+    background: linear-gradient(90deg, rgb(12, 19, 26) 13%, rgb(17, 22, 28) 58%);
+  }
