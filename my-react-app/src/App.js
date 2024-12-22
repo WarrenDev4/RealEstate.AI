@@ -15,6 +15,7 @@ function App() {
     <Router>
       <LandingPageNav />
       <body></body>
+      <h1>RealEstate.AI</h1>
     </Router>
   );
 };
