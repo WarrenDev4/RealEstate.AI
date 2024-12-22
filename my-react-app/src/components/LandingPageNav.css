@@ -30,6 +30,10 @@
   }
 
   body {
-    background: rgb(21, 27, 33);
-    background: linear-gradient(90deg, rgb(12, 19, 26) 13%, rgb(17, 22, 28) 58%);
+    background: rgb(14, 18, 21);
+    background: linear-gradient(90deg, rgb(9, 13, 18) 13%, rgb(17, 22, 28) 58%);
+  }
+
+  h1 {
+    color: #ffffff;
   }
