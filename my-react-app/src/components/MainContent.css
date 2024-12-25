@@ -1,0 +1,102 @@
+.main-content {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden; 
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  .realestate-logo {
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    height: 55px;
+    width: 245px;
+    z-index: 1; 
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .text-section {
+    max-width: 800px;
+    margin-bottom: 50px; 
+  }
+  
+  .headline {
+    font-size: 3rem;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0); 
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0); 
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color:#00BFFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .cta-button:hover {
+    background-color: #0084ff;
+  }
+  
+  .image-section {
+    margin-top: 20px; 
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .realestate-logo {
+      width: 200px;
+      height: auto;
+    }
+  
+    .headline {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 12px 25px;
+    }
+  }
+  
