@@ -1,5 +1,5 @@
 .main-content {
-  position: relative;  /* Position context for absolute children */
+  position: relative;  
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -7,7 +7,7 @@
 
 .header {
   display: flex;
-  justify-content: space-between;  /* Spread items (logo left, button right) */
+  justify-content: space-between; 
   align-items: center;
   padding: 20px 70px;
   position: relative;
@@ -56,10 +56,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 140px);  /* Maintain the original height */
+  height: calc(100vh - 140px);
   text-align: center;
   padding: 20px;
-  margin-top: -80px;  /* Pulls the section higher */
+  margin-top: -80px; 
   position: relative;
   z-index: 1;
 }
