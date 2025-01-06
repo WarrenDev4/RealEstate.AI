@@ -1,8 +1,17 @@
 .main-content {
-  position: relative;
+  position: relative;  /* Position context for absolute children */
   width: 100%;
   height: 100vh;
   overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;  /* Spread items (logo left, button right) */
+  align-items: center;
+  padding: 20px 70px;
+  position: relative;
+  z-index: 2;
 }
 
 .background {
@@ -26,9 +35,6 @@
 }
 
 .login-button {
-  position: absolute;
-  top: 20px; 
-  right: 70px; 
   padding: 15px 60px;
   background-color: #006eff;
   color: white;
@@ -37,12 +43,12 @@
   border-radius: 25px;
   cursor: pointer;
   display: inline-block;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
 }
 
 .login-button:hover {
   background-color: #001193;
-  transition: color 2s ease;
 }
 
 .content-wrapper {
@@ -50,29 +56,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: calc(100vh - 140px);  /* Maintain the original height */
   text-align: center;
   padding: 20px;
+  margin-top: -80px;  /* Pulls the section higher */
   position: relative;
   z-index: 1;
 }
 
+
 .text-section {
   max-width: 800px;
-  margin-bottom: 160px;
 }
 
 .headline {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3rem;
-  margin-bottom: 65px;
+  margin-bottom: 40px;
   color: rgb(30, 30, 30);
 }
 
 .description {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25rem;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   color: rgb(30, 30, 30);
   font-weight: 600;
 }
@@ -86,30 +93,29 @@
   border-radius: 25px;
   cursor: pointer;
   display: inline-block;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
 }
 
 .register-button:hover {
   background-color: #0084ff;
-  transition: color 2s ease;
-}
-
-
-.image-section {
-  margin-top: 20px;
-}
-
-.image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
   .realestate-logo {
     width: 200px;
     height: auto;
+    margin-bottom: 10px;
+  }
+
+  .login-button {
+    padding: 12px 30px;
   }
 
   .headline {
@@ -118,9 +124,5 @@
 
   .description {
     font-size: 1rem;
-  }
-
-  .register-button {
-    padding: 12px 25px;
   }
 }
