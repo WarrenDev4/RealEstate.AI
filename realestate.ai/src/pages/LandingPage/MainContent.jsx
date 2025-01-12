@@ -1,5 +1,7 @@
 import React from 'react';
 import './MainContent.css';
+import LoginButton from '../../components/Login/LoginButton';
+import RegisterButton from '../../components/Register/RegisterButton';
 
 const MainContent = () => {
   return (
@@ -10,7 +12,7 @@ const MainContent = () => {
     <a href="/">
       <img src="/images/RealEstate.AI Logo Black.png" alt="RealEstate.AI Black" class="realestate-logo" />
     </a>
-    <a href="#login" class="login-button">Log In</a>
+    <LoginButton />
   </div>
 
   <div class="content-wrapper">
@@ -20,7 +22,7 @@ const MainContent = () => {
         RealEstate.AI is an AI-driven real estate tool designed to analyze data that provides
         insights into market trends, property valuations, neighborhood analysis, investment forecasting, and comparable sales data.
       </p>
-      <a href="#register" class="register-button">Register Here</a>
+      <RegisterButton />
     </div>
   </div>
 </section>

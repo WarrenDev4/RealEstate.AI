@@ -1,0 +1,23 @@
+.register-button {
+    padding: 15px 60px;
+    background-color: #00BFFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+  }
+    
+    .register-button:hover {
+      background-color: #0084ff;
+    }
+    
+    .register-button:focus {
+      outline: none; 
+    }
+    
