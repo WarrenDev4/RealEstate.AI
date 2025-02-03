@@ -26,14 +26,12 @@ const Login = () => {
     <div className="login-container">
       <div className="login-card">
         <div className="logo">
-          <img src="your-logo.png" alt="Logo" />
+          <img src="/images/RealEstate.AI Logo White.png" alt="Logo" />
         </div>
         <form onSubmit={handleSubmit} className="login-form">
-          <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
-          <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
           <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
           <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
-          <button type="submit" className="login-btn"> Register </button>
+          <button type="submit" className="login-btn"> Log In </button>
         </form>
       </div>
     </div>

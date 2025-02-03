@@ -1,56 +1,59 @@
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f2f2f2;
-  }
-  
-  .login-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-  }
-  
-  .logo img {
-    max-width: 150px;
-    margin-bottom: 20px;
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .login-form input {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  .login-form button {
-    padding: 10px;
-    background-color: #4caf50;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .login-form button:hover {
-    background-color: #45a049;
-  }
-  
-  .login-form input:focus {
-    border-color: #4caf50;
-    outline: none;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(35,53,75);
+  background: linear-gradient(90deg, rgba(35,53,75,1) 0%, rgba(9,53,121,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.login-card {
+  background: rgba(30, 25, 25, 0.71);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.logo img {
+  width: 270px;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.login-form button {
+  padding: 12px;
+  background-color: #1a8cdd;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #0e5282;
+}
+
+.login-form input:focus {
+  border-color: #0e5281;
+  outline: none;
+}
