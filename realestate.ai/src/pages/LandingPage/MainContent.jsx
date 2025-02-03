@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainContent.css';
 import LoginButton from '../../components/Login/LoginButton';
-import RegisterButton from '../../components/Register/RegisterButton';
+import RegisterButton from '../../components/Register/RegisterButton/RegisterButton';
 
 const MainContent = () => {
   return (
