@@ -1,32 +1,13 @@
-import React, { useState } from 'react';
-import './Register.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./RegisterForm.css"
 
-const Register = () => {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    password: ''
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
-
-  return (
-    <div className="register-container">
-      <div className="register-card">
+const RegisterForm = () => {
+    return (
+        <div className="register-container">
+            <div className="register-card">
         <div className="logo">
-          <img src="/images/RealEstate.AI Logo White.png" alt="Logo" />
+          <img src="your-logo.png" alt="Logo" />
         </div>
         <form onSubmit={handleSubmit} className="register-form">
           <input
@@ -67,7 +48,7 @@ const Register = () => {
         </form>
       </div>
     </div>
-  );
+    );
 };
 
-export default Register;
+export default RegisterForm
