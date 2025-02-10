@@ -1,0 +1,103 @@
+.home-page {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .hero {
+    background: rgb(27, 26, 26);
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+  }
+  
+  .search-bar {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+  }
+  
+  .key-metrics {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .metric-card {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .market-trends {
+    margin: 30px 0;
+  }
+  
+  .chart-placeholder {
+    height: 200px;
+    background: #ddd;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .recommendation-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .recommendation-item {
+    background: #2bb652;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .latest-news {
+    margin: 30px 0;
+  }
+  
+  .news-item {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .quick-actions {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .action-buttons button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .action-buttons button:hover {
+    background: #0056b3;
+  }
+  
+  .dashboard-title {
+    font-family: "Gill Sans", sans-serif; 
+    color: black; 
+    font-size: 32px; 
+    font-weight: bold; 
+}
