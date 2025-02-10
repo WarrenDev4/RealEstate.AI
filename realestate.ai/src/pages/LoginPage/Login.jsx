@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom'; 
 import './Login.css';
 
 const Login = () => {
+  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
     email: '',
     password: ''
   });
@@ -19,6 +20,16 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Simulate successful login (replace this with actual authentication logic)
+    const isAuthenticated = true; 
+
+    if (isAuthenticated) {
+      navigate('/home'); // Redirect to Home page
+    } else {
+      alert('Login failed. Please check your credentials.');
+    }
+
     console.log(formData);
   };
 
