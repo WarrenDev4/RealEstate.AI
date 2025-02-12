@@ -25,8 +25,7 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 **Home Page**
 ![RealEstate AI Home Page](https://github.com/user-attachments/assets/ae37f153-66d8-400d-b007-e7683ba086b7)
 
-**Updates**
-**I have created the UI for the homepage, when a user logs into the applicaction. Next, I am going to add MySQL to the database (for user registration and sign in) and work on the design of the other pages as well. Then I will work on adding Tensorflow functionality for AI powered analytics.**
+**Update: I have created the UI for the homepage, when a user logs into the applicaction. Next, I am going to add MySQL to the database (for user registration and sign in) and work on the design of the other pages as well. Then I will work on adding Tensorflow functionality for AI powered analytics.**
 
 -------------------------------------------------------------
 **This project is currently Work in Progress.**
