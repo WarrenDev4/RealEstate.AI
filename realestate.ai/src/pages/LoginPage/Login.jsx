@@ -20,12 +20,11 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    // Simulate successful login (replace this with actual authentication logic)
+  
     const isAuthenticated = true; 
 
     if (isAuthenticated) {
-      navigate('/home'); // Redirect to Home page
+      navigate('/home'); 
     } else {
       alert('Login failed. Please check your credentials.');
     }
