@@ -3,6 +3,8 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 
 **Tools be used for this project: Spring Boot, TensorFlow, React.js, MySQL, Artificial Intelligence, D3.js**
 
+
+
 **Landing Page for RealEstate.AI**
 ![RealEstate AI Landing Page 1](https://github.com/user-attachments/assets/325d3de5-12fe-4fcb-b1b7-18a51e4afd43)
 
@@ -12,8 +14,11 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 **Log In Page for RealEstate.AI**
 ![RealEstate AI Log In](https://github.com/user-attachments/assets/8c0aa145-c3db-4da0-a3dd-a90003ebf539)
 
-**I am currently still working on developing the database with MySQL for user registration and login.**
-**Next I will be developing the main application page after the user registers and logs in.**
+**Home Page**
+![RealEstate AI Home Page](https://github.com/user-attachments/assets/ae37f153-66d8-400d-b007-e7683ba086b7)
+
+**Updates**
+**I have created the UI for the homepage, when a user logs into the applicaction. Next, I am going to add MySQL to the database (for user registration and sign in) and work on the design of the other pages as well. Then I will work on adding Tensorflow functionality for AI powered analytics.**
 
 -------------------------------------------------------------
 **This project is currently Work in Progress.**
