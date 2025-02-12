@@ -38,9 +38,6 @@ const Navbar = () => {
         <Link to="/profile" className="profile-icon">
           <FaUserCircle size={30} />
         </Link>
-        <div className="menu-btn" onClick={toggleMenu}>
-          ☰
-        </div>
       </div>
     </nav>
   );
