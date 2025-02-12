@@ -6,6 +6,7 @@ import Register from './pages/RegisterPage/Register';
 import Login from './pages/LoginPage/Login'; 
 import Home from './pages/MainPage/Home'; 
 
+
 function App() {
   return (
     <Router>

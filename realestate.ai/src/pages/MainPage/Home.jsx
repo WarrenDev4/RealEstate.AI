@@ -1,26 +1,88 @@
-import React from 'react';
-import Layout from '../../components/Layout/Layout';
+import React from "react";
+import { Doughnut } from "react-chartjs-2";
+import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
+import { LayoutProvider } from "../../context/LayoutContext";
+
+Chart.register(ArcElement, Tooltip, Legend);
+
+const chartData = [
+  {
+    title: "Market Distribution",
+    data: {
+      labels: ["Residential", "Commercial", "Industrial"],
+      datasets: [
+        {
+          data: [60, 30, 10],
+          backgroundColor: ["#007bff", "#28a745", "#ffc107"],
+        },
+      ],
+    },
+  },
+  {
+    title: "Property Sales",
+    data: {
+      labels: ["Sold", "Pending", "Active"],
+      datasets: [
+        {
+          data: [50, 25, 25],
+          backgroundColor: ["#17a2b8", "#dc3545", "#6c757d"],
+        },
+      ],
+    },
+  },
+  {
+    title: "Investment Types",
+    data: {
+      labels: ["Rental", "Flipping", "Long-Term"],
+      datasets: [
+        {
+          data: [40, 35, 25],
+          backgroundColor: ["#6610f2", "#fd7e14", "#20c997"],
+        },
+      ],
+    },
+  },
+];
 
 const Home = () => {
   return (
-    <Layout>
+    <LayoutProvider>
       <div className="home-page">
-      <h1 className="dashboard-title">Dashboard</h1>
-
-        <section className="hero">
-          <h1>Welcome back, [User's Name]!</h1>
-          <p>The real estate market is up by 3.2% this month.</p>
-          <input type="text" placeholder="Search properties, neighborhoods..." className="search-bar" />
+        <h1
+          className="dashboard-title"
+          style={{
+            fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+            fontSize: "28px",
+            color: "#2e2c2c",
+          }}
+        >
+          Dashboard
+        </h1>
+        <section>
+          <div className="chart-container">
+            {chartData.map((chart, index) => (
+              <div className="chart-card" key={index}>
+                <h3>{chart.title}</h3>
+                <div className="chart-wrapper">
+                  <Doughnut
+                    data={chart.data}
+                    options={{ maintainAspectRatio: false }}
+                    width={80}
+                    height={80}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
         </section>
-
         <section className="key-metrics">
           <div className="metric-card">
             <h3>📊 Avg. Market Price</h3>
-            <p>$450,000</p>
+            <p>$390,000</p>
           </div>
           <div className="metric-card">
             <h3>🏠 Recently Analyzed</h3>
-            <p>3 new properties</p>
+            <p>7 new properties</p>
           </div>
           <div className="metric-card">
             <h3>🏡 Trending Neighborhoods</h3>
@@ -28,40 +90,27 @@ const Home = () => {
           </div>
           <div className="metric-card">
             <h3>📉 Investment Score</h3>
-            <p>85% Strong Buy</p>
+            <p>72% Strong Buy</p>
           </div>
         </section>
-
         <section className="recommendations">
-          <h2>AI-Powered Recommendations</h2>
+          <h2 className="dashboard-title"
+            style={{
+              fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+              fontSize: "18px",
+              fontWeight: "17px",
+              color: "#2e2c2c",
+            }}>AI-Powered Recommendations</h2>
           <div className="recommendation-list">
             <div className="recommendation-item">🏡 Top properties to watch</div>
-            <div className="recommendation-item">📍 Rising property values in [City]</div>
+            <div className="recommendation-item">
+              📍 Rising property values
+            </div>
             <div className="recommendation-item">💰 Investment Opportunities</div>
           </div>
         </section>
-
-        <section className="market-trends">
-          <h2>Recent Market Trends</h2>
-          <div className="chart-placeholder">[Insert Chart Component Here]</div>
-        </section>
-
-        <section className="latest-news">
-          <h2>Latest Real Estate News</h2>
-          <div className="news-item">🏢 "Housing market sees 5% growth this year" - Jan 2025</div>
-          <div className="news-item">🏡 "Best cities for real estate investment in 2025" - Feb 2025</div>
-        </section>
-        
-        <section className="quick-actions">
-          <h2>Quick Actions</h2>
-          <div className="action-buttons">
-            <button>Analyze a Property</button>
-            <button>Compare Neighborhoods</button>
-            <button>Investment Forecasting</button>
-          </div>
-        </section>
       </div>
-    </Layout>
+    </LayoutProvider>
   );
 };
 
