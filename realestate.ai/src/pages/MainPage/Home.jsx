@@ -13,7 +13,7 @@ const chartData = [
       datasets: [
         {
           data: [60, 30, 10],
-          backgroundColor: ["#007bff", "#28a745", "#ffc107"],
+          backgroundColor: ["#007bff", "#6fb3fc", "#0d3d70"],
         },
       ],
     },
@@ -25,7 +25,7 @@ const chartData = [
       datasets: [
         {
           data: [50, 25, 25],
-          backgroundColor: ["#17a2b8", "#dc3545", "#6c757d"],
+          backgroundColor: ["#007bff", "#6fb3fc", "#0d3d70"],
         },
       ],
     },
@@ -37,7 +37,7 @@ const chartData = [
       datasets: [
         {
           data: [40, 35, 25],
-          backgroundColor: ["#6610f2", "#fd7e14", "#20c997"],
+          backgroundColor: ["#007bff", "#6fb3fc", "#0d3d70"],
         },
       ],
     },
@@ -86,7 +86,7 @@ const Home = () => {
           </div>
           <div className="metric-card">
             <h3>🏡 Trending Neighborhoods</h3>
-            <p>Downtown, Suburb X</p>
+            <p>Neighborhoood A</p>
           </div>
           <div className="metric-card">
             <h3>📉 Investment Score</h3>
