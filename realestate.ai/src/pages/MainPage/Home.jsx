@@ -51,9 +51,9 @@ const Home = () => {
         <h1
           className="dashboard-title"
           style={{
-            fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+            fontFamily: "Inter, Poppins, Nunito, sans-serif",
             fontSize: "28px",
-            color: "#2e2c2c",
+            color: "#171616",
           }}
         >
           Dashboard
