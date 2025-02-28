@@ -8,7 +8,7 @@ export const useLayout = () => useContext(LayoutContext);
 export const LayoutProvider = ({ children }) => {
   return (
     <LayoutContext.Provider value={{}}>
-      <div className="layout" style={{ backgroundColor: "#FFFFFF", minHeight: "100vh" }}>
+      <div className="layout" style={{ backgroundColor: "#f4f7fc", minHeight: "100vh" }}>
         <Navbar />
         <main>{children}</main>
       </div>
