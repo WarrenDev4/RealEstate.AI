@@ -1,5 +1,6 @@
 import React from 'react';
 
+{/* Investments Page */}
 const Investments = () => {
   return (
     <div className="investments">

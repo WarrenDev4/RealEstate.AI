@@ -3,11 +3,13 @@ import { Doughnut } from "react-chartjs-2";
 import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 import { LayoutProvider } from "../../context/LayoutContext";
 
+{/* Chart.js implementation */}
 Chart.register(ArcElement, Tooltip, Legend);
 
+{/* Sample Chart Data */}
 const chartData = [
   {
-    title: "Market Distribution",
+    title: "Market Distribution", 
     data: {
       labels: ["Residential", "Commercial", "Industrial"],
       datasets: [
@@ -48,14 +50,7 @@ const Home = () => {
   return (
     <LayoutProvider>
       <div className="home-page">
-        <h1
-          className="dashboard-title"
-          style={{
-            fontFamily: "Inter, Poppins, Nunito, sans-serif",
-            fontSize: "28px",
-            color: "#171616",
-          }}
-        >
+        <h1 className="dashboard-title" style={{ fontFamily: "Inter, Poppins, Nunito, sans-serif", fontSize: "28px", color: "#171616",}}>
           Dashboard
         </h1>
         <section>
@@ -64,17 +59,13 @@ const Home = () => {
               <div className="chart-card" key={index}>
                 <h3>{chart.title}</h3>
                 <div className="chart-wrapper">
-                  <Doughnut
-                    data={chart.data}
-                    options={{ maintainAspectRatio: false }}
-                    width={80}
-                    height={80}
-                  />
+                  <Doughnut data={chart.data} options={{ maintainAspectRatio: false }} width={80} height={80} />
                 </div>
               </div>
             ))}
           </div>
         </section>
+        {/*Sample Data for the Metric Cards */}
         <section className="key-metrics">
           <div className="metric-card">
             <h3>📊 Avg. Market Price</h3>

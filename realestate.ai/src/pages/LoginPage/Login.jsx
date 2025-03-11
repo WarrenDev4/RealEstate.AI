@@ -2,14 +2,18 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import './Login.css';
 
+{/* Login Page */}
 const Login = () => {
+  {/* Sample logic for handling form data. MySQL database logic will be added soon! */}
   const navigate = useNavigate();
 
+  {/* Sample logic for handling form data. */}
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
 
+  {/* Sample handleChange function. */}
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -18,6 +22,7 @@ const Login = () => {
     });
   };
 
+  {/* Sample handleSubmit function. It currently only accesses the home page for development and testing purposes for now. */}
   const handleSubmit = (e) => {
     e.preventDefault();
   

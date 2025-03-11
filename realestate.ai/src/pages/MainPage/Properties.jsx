@@ -1,5 +1,6 @@
 import React from 'react';
 
+{/* Properties Page */}
 const Properties = () => {
   return (
     <div className="properties">
