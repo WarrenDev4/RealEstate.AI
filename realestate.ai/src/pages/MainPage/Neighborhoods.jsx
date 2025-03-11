@@ -1,5 +1,6 @@
 import React from 'react';
 
+{/* Neighborhoods Page */}
 const Neighborhoods = () => {
   return (
     <div className="neighborhoods">

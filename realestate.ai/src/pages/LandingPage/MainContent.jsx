@@ -3,6 +3,7 @@ import './MainContent.css';
 import LoginButton from '../../components/Login/LoginButton';
 import RegisterButton from '../../components/Register/RegisterButton/RegisterButton';
 
+{/* Landing Page */}
 const MainContent = () => {
   return (
     <section class="main-content">
