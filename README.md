@@ -13,7 +13,7 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
   </tr>
 </table>
 
-**Sample GIF of the current status of RealEstate.AI**
+**Sample GIF of the current status of RealEstate.AI (For the AI-Powered Recommendations pages there will be new content and features added soon!)**
 
 ![RealEstate AIVideo-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/6742a219-374a-4dd4-9ced-fadc03924cda)
 
