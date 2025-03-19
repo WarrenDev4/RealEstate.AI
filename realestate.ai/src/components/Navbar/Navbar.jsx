@@ -12,10 +12,10 @@ const Navbar = () => {
       </Link>
 
       <div className={`navbar-links`}>
-        <Link to="/" className="navbar-link">
+        <Link to="/home" className="navbar-link">
           <FaHome className="icon" /> Home
         </Link>
-        <Link to="/market-trends" className="navbar-link">
+        <Link to="/trends" className="navbar-link">
           <FaChartLine className="icon" /> Trends
         </Link>
         <Link to="/property-valuations" className="navbar-link">
