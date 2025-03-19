@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Doughnut } from "react-chartjs-2";
 import { Chart, ArcElement, Tooltip, Legend } from "chart.js";
 import { LayoutProvider } from "../../context/LayoutContext";
+import { useNavigate }  from "react-router-dom";
 
 {/* Chart.js implementation */}
 Chart.register(ArcElement, Tooltip, Legend);
@@ -47,6 +48,15 @@ const chartData = [
 ];
 
 const Home = () => {
+  
+  const navigate = useNavigate();
+  const [fade, setFade] = useState(false);
+
+  const handleNavigation = (path) => {
+    setFade(true);
+    setTimeout(() => navigate(path), 500); 
+  };
+  
   return (
     <LayoutProvider>
       <div className="home-page">
@@ -65,7 +75,7 @@ const Home = () => {
             ))}
           </div>
         </section>
-        {/*Sample Data for the Metric Cards */}
+        {/* Sample Data for the Metric Cards */}
         <section className="key-metrics">
           <div className="metric-card">
             <h3>📊 Avg. Market Price</h3>
@@ -84,7 +94,7 @@ const Home = () => {
             <p>72% Strong Buy</p>
           </div>
         </section>
-        <section className="recommendations">
+        <section className={`recommendations ${fade ? "fade-out" : ""}`}>
           <h2 className="dashboard-title"
             style={{
               fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
@@ -93,11 +103,9 @@ const Home = () => {
               color: "#2e2c2c",
             }}>AI-Powered Recommendations</h2>
           <div className="recommendation-list">
-            <div className="recommendation-item">🏡 Top properties to watch</div>
-            <div className="recommendation-item">
-              📍 Rising property values
-            </div>
-            <div className="recommendation-item">💰 Investment Opportunities</div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/top-properties")}>🏡 Top properties to watch</div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/rising-values")}>📍 Rising property values </div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/investment-opportunities")}>💰 Investment Opportunities</div>
           </div>
         </section>
       </div>
