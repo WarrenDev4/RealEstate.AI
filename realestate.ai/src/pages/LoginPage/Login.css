@@ -57,3 +57,16 @@
   border-color: #0e5281;
   outline: none;
 }
+
+.register-text {
+  color: #fff;
+}
+
+.register-text a {
+  color: #1a8cdd;
+  text-decoration: none;
+}
+
+.register-text a:hover {
+  text-decoration: underline;
+}
