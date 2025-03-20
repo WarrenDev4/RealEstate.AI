@@ -21,7 +21,7 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 
 ![RealEstate AI Sign In](https://github.com/user-attachments/assets/8c16248b-bdb5-4bb0-8a93-2e693b283f00)
 
-**Early Build of the Dashboard Page (Sample Data shown)**
+**Early Build of the Dashboard Page (Sample data shown)**
 
 ![RealEstate AI Dashboard Early](https://github.com/user-attachments/assets/f49a8670-a790-485b-922c-8ce8f3cf8c2b)
 
