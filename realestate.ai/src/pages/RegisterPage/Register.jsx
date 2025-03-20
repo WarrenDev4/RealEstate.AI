@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 import './Register.css';
 
 {/* Register Page */}
 const Register = () => {
    {/* Sample logic for handling form data. MySQL database logic will be added soon! */}
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -38,6 +40,12 @@ const Register = () => {
           <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
           <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
           <button type="submit" className="register-btn"> Register </button>
+          <p className="login-text">
+            Already have an account?{" "}
+            <a href="/login" onClick={(e) => { e.preventDefault(); navigate("/login"); }}>
+              Sign In
+            </a>
+          </p>
         </form>
       </div>
     </div>

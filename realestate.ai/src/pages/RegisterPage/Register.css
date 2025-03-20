@@ -58,3 +58,18 @@
     outline: none;
   }
   
+  .login-text {
+    color: white;
+  }
+
+  .login-text a {
+    color: #1a8cdd;
+    text-decoration: none;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
+  
+
+  

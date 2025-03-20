@@ -47,6 +47,12 @@ const Login = () => {
           <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
           <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
           <button type="submit" className="login-btn"> Log In </button>
+          <p className="register-text">
+          Don't have an account?{" "}
+          <a href="/register" onClick={(e) => { e.preventDefault(); navigate("/register"); }}>
+          Sign Up
+          </a> 
+          </p>
         </form>
       </div>
     </div>
