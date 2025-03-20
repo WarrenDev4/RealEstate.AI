@@ -13,11 +13,23 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
   </tr>
 </table>
 
-**Sample video of the current status of RealEstate.AI**
+**Landing Page for RealEstate.AI**
+![RealEstate AI Landing Page 1](https://github.com/user-attachments/assets/3bb49320-6e85-4c23-b3f7-cd7a0fff1976)
 
-![RealEstate AIDemo-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/74acf102-056f-4f18-b2ca-39d30b2226b5)
+**Register and Login pages for RealEstate.AI**
+![RealEstate AI Sign Up](https://github.com/user-attachments/assets/35cb6140-e3fd-48f2-b976-6694da18ca83)
 
-**Update: I have created the UI for the homepage, when a user logs into the application. Next, I am going to add MySQL to the database (for user registration and sign in) and work on the design of the other pages as well. Then I will work on adding Tensorflow functionality for AI-powered analytics.**
+![RealEstate AI Sign In](https://github.com/user-attachments/assets/8c16248b-bdb5-4bb0-8a93-2e693b283f00)
+
+**Early Build of the Dashboard Page (Sample Data shown)**
+
+![RealEstate AI Dashboard Early](https://github.com/user-attachments/assets/f49a8670-a790-485b-922c-8ce8f3cf8c2b)
+
+**Early Build of the Trends Page (Sample data shown)**
+
+![RealEstate AI Early Trends Page](https://github.com/user-attachments/assets/f6bd6bfc-afd3-4382-a945-aaef88bec801)
+
+**Update: I am currently working on the layout of all the main pages on the application. I am also creating the MySQL functionality for user authentication. I plan on adding an Real Estate API (Such as Zillow, RealEstateAPI, etc) for fetching real estate data in real time. I also plan on adding a Maps feature (In the Properties page) for viewing properties on interactive maps and to utilize street view features.**
 
 -------------------------------------------------------------
 **This project is currently Work in Progress.**
