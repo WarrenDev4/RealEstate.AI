@@ -1,4 +1,4 @@
-![RealEstate AI Landing Page 1](https://github.com/user-attachments/assets/108d691b-24cc-4449-bd9d-740afe4d9b17)![RealEstate AI Logo (Black)](https://github.com/user-attachments/assets/ad231900-5d86-4367-9e41-12a3388eb2fe)
+![RealEstate AI Logo (Black)](https://github.com/user-attachments/assets/ad231900-5d86-4367-9e41-12a3388eb2fe)
 RealEstate.AI is an advanced AI-driven tool designed to analyze real estate market data. It provides insights into market trends, property valuations, neighborhood analysis, investment forecasting, and comparable sales data. The tool will include features like interactive maps, AI-powered property recommendations, risk assessment for investments, and predictive analytics to help users make informed decisions.
 
 **Tools to be used for this project:**
