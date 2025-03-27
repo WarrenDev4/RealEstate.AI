@@ -1,19 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom'; 
+import AuthContext from "../../context/AuthContext";
 import './Login.css';
 
 {/* Login Page */}
 const Login = () => {
-  {/* Sample logic for handling form data. MySQL database logic will be added soon! */}
+  {/* Database logic for handling user form data. */}
+  const { login } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  {/* Sample logic for handling form data. */}
+  {/* Logic for handling user form data. */}
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
 
-  {/* Sample handleChange function. */}
+  const [error, setError] = useState(null);
+
+  {/* HandleChange function. */}
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -22,19 +26,17 @@ const Login = () => {
     });
   };
 
-  {/* Sample handleSubmit function. It currently only accesses the home page for development and testing purposes for now. */}
-  const handleSubmit = (e) => {
+  {/* HandleSubmit function for handling form data. */}
+  const handleSubmit = async (e) => {
     e.preventDefault();
   
-    const isAuthenticated = true; 
-
-    if (isAuthenticated) {
-      navigate('/home'); 
-    } else {
-      alert('Login failed. Please check your credentials.');
+    try {
+      await login(formData.email, formData.password); { /* Call login data from AuthContext. */ }
+      navigate("/home"); { /* Redirect to homepage on login data successfully submitted. */ } 
+    } catch (err) {
+      setError("Invalid email or password. Please try again.");
+      console.error("Login error:", err);
     }
-
-    console.log(formData);
   };
 
   return (
@@ -45,6 +47,7 @@ const Login = () => {
         </div>
         <form onSubmit={handleSubmit} className="login-form">
           <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+          {error && <p className="error-message">{error}</p>} {/* Display error message if login fails */}
           <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
           <button type="submit" className="login-btn"> Log In </button>
           <p className="register-text">
