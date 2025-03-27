@@ -2,7 +2,7 @@ package com.warren.real_estate_ai.controller;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -16,18 +16,23 @@ import com.warren.real_estate_ai.service.UserService;
 @RestController
 @RequestMapping("/api/users")
 @CrossOrigin
-public class Controller {
-    @Autowired
-    private UserService userService;
+public class UserController { 
+
+    private final UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
 
     @PostMapping("/add")
-    public String add(@RequestBody User user){
+    public ResponseEntity<String> addUser(@RequestBody User user) {
         userService.saveUser(user);
-        return "New user is added";
+        return ResponseEntity.ok("New user added successfully");
     }
 
     @GetMapping("/getAll")
-    public List<User> list(){
-        return userService.getAllUsers();
+    public ResponseEntity<List<User>> getAllUsers() {
+        List<User> users = userService.getAllUsers();
+        return ResponseEntity.ok(users);
     }
 }
