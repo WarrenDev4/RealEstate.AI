@@ -28,43 +28,7 @@ public class User {
     @Column(nullable = false)
     private String password;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getfirstName() {
-        return firstName;
-    }
-
-    public void setfirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getlastName() {
-        return lastName;
-    }
-
-    public void setlastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getemail() {
-        return email;
-    }
-
-    public void setemail(String email) {
-        this.email = email;
-    }
-
-    public String getpassword() {
-        return password;
-    }
-
-    public void setpassword(String password) {
-        this.password = password;
-    }
+    // New field for storing password reset token
+    @Column
+    private String resetPasswordToken;  // Add this field
 }
