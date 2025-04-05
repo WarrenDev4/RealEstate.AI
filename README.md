@@ -21,7 +21,7 @@ The real estate market is complex and driven with data, yet many investors, buye
 **Register and Login pages for RealEstate.AI**
 ![RealEstate AI Sign Up](https://github.com/user-attachments/assets/35cb6140-e3fd-48f2-b976-6694da18ca83)
 
-![RealEstate AI Sign In](https://github.com/user-attachments/assets/8c16248b-bdb5-4bb0-8a93-2e693b283f00)
+![RealEstate AI Sign In Page](https://github.com/user-attachments/assets/520de861-1585-4f47-b055-c97734264482)
 
 **Early Build of the Dashboard Page (Sample data shown)**
 
@@ -31,7 +31,7 @@ The real estate market is complex and driven with data, yet many investors, buye
 
 ![RealEstate AI Early Trends Page](https://github.com/user-attachments/assets/f6bd6bfc-afd3-4382-a945-aaef88bec801)
 
-**Update: I am currently working on the layout of all the main pages on the application. I am also creating the MySQL functionality for user authentication. I plan on adding an Real Estate API (Such as Zillow, RealEstateAPI, etc) for fetching real estate data in real time. I also plan on adding a Maps feature (In the Properties page) for viewing properties on interactive maps and to utilize street view features.**
+**Update: I am currently working on the layout of all the main pages on the application.  I plan on adding an Real Estate API (ATTOM Property Data API) for fetching real estate data in real time. I also plan on adding a OpenStreetMap Maps feature (In the Properties page) for viewing properties on interactive maps and to utilize street view features. Major additions and implemenations will be coming very soon!**
 
 -------------------------------------------------------------
 **This project is currently Work in Progress.**
