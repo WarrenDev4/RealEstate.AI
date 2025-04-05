@@ -24,8 +24,7 @@ The real estate market is complex and driven with data, yet many investors, buye
 ![RealEstate AI Sign In Page](https://github.com/user-attachments/assets/520de861-1585-4f47-b055-c97734264482)
 
 **Early Build of the Dashboard Page (Sample data shown)**
-
-![RealEstate AI Dashboard Early](https://github.com/user-attachments/assets/f49a8670-a790-485b-922c-8ce8f3cf8c2b)
+![REAI 1](https://github.com/user-attachments/assets/3d65790e-466b-4e48-9447-93083b4d3d12)
 
 **Early Build of the Trends Page (Sample data shown)**
 
