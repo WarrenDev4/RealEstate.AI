@@ -70,3 +70,14 @@
 .register-text a:hover {
   text-decoration: underline;
 }
+
+.forgot-password a {
+  color: #1a8cdd;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+

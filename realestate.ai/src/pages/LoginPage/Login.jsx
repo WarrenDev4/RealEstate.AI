@@ -1,23 +1,19 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import AuthContext from "../../context/AuthContext";
 import './Login.css';
 
 {/* Login Page */}
 const Login = () => {
-  {/* Database logic for handling user form data. */}
-  const { login } = useContext(AuthContext);
+  {/* Sample logic for handling form data. MySQL database logic will be added soon! */}
   const navigate = useNavigate();
 
-  {/* Logic for handling user form data. */}
+  {/* Sample logic for handling form data. */}
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   });
 
-  const [error, setError] = useState(null);
-
-  {/* HandleChange function. */}
+  {/* Sample handleChange function. */}
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -26,17 +22,19 @@ const Login = () => {
     });
   };
 
-  {/* HandleSubmit function for handling form data. */}
-  const handleSubmit = async (e) => {
+  {/* Sample handleSubmit function. It currently only accesses the home page for development and testing purposes for now. */}
+  const handleSubmit = (e) => {
     e.preventDefault();
   
-    try {
-      await login(formData.email, formData.password); { /* Call login data from AuthContext. */ }
-      navigate("/home"); { /* Redirect to homepage on login data successfully submitted. */ } 
-    } catch (err) {
-      setError("Invalid email or password. Please try again.");
-      console.error("Login error:", err);
+    const isAuthenticated = true; 
+
+    if (isAuthenticated) {
+      navigate('/home'); 
+    } else {
+      alert('Login failed. Please check your credentials.');
     }
+
+    console.log(formData);
   };
 
   return (
@@ -47,14 +45,18 @@ const Login = () => {
         </div>
         <form onSubmit={handleSubmit} className="login-form">
           <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
-          {error && <p className="error-message">{error}</p>} {/* Display error message if login fails */}
           <input type="password" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
           <button type="submit" className="login-btn"> Log In </button>
           <p className="register-text">
-          Don't have an account?{" "}
-          <a href="/register" onClick={(e) => { e.preventDefault(); navigate("/register"); }}>
-          Sign Up
-          </a> 
+            Don't have an account?{" "}
+            <a href="/register" onClick={(e) => { e.preventDefault(); navigate("/register"); }}>
+              Sign Up
+            </a>
+          </p>
+          <p className="forgot-password">
+            <a href="/forgot-password" onClick={(e) => { e.preventDefault(); navigate("/forgot-password"); }}>
+              Forgot Password?
+            </a>
           </p>
         </form>
       </div>
