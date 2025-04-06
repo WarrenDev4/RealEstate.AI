@@ -18,8 +18,8 @@ The real estate market is complex, often with vast amounts of unstructured and f
 
 ![RealEstate AI Sign In Page](https://github.com/user-attachments/assets/520de861-1585-4f47-b055-c97734264482)
 
-**Early Build of the Dashboard Page (Sample data shown)**
-![REAI 1](https://github.com/user-attachments/assets/3d65790e-466b-4e48-9447-93083b4d3d12)
+**Build of the Dashboard Page (Sample data shown)**
+![REAI 1a](https://github.com/user-attachments/assets/41fef219-4458-415c-8eae-951890a28824)
 
 **Early Build of the Trends Page (Sample data shown)**
 
