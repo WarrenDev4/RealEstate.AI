@@ -204,41 +204,23 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background-color: #007bff; /* Blue color for the button */
+  background-color: #007bff;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the search button */
 .search-btn:hover {
   background-color: blue;
 }
 
-/* Search Button Style */
-.trends-search-button {
-  padding: 10px 15px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
 
-.trends-search-button:hover {
-  background-color: #0056b3;
-}
-
-
-/* For the dropdown (if it's a select dropdown) */
 .filter-dropdown {
   font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
   color: #333;
 }
 
-/* General styling for trend card */
 .trend-card {
   background-color: #fff;
   padding: 20px;
