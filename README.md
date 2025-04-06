@@ -4,8 +4,10 @@ RealEstate.AI is an advanced AI-driven tool designed to analyze real estate mark
 The real estate market is complex and driven with data, yet many investors, buyers, and real estate professionals struggle to make informed decisions due to the overwhelming amount of unstructured and fragmented market data. Some methods of market analysis often can lead to a lack accuracy, efficiency, and predictive insights, leading to poor investment decisions. RealEstate.AI aims to address this issue by leveraging artificial intelligence tools to analyze real estate market trends, provide accurate property valuations, assess neighborhood conditions, forecast investments, and compare sales data. With Artificial Intelligence transforming the software development industry, RealEstate.AI aims to utilize its power by transforming raw data into actionable insights, empowering users to make data-driven, confident, and profitable real estate decisions.
 
 **Tools to be used for this project:**
-'Spring Boot`
+`Spring Boot`
+
 `TensorFlow`
+
 `React`
 `MySQL`
 
