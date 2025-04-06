@@ -141,7 +141,6 @@ const Trends = () => {
 
         {/* Location Filter Section */}
         <div className="location-filters">
-          <h4>📍 Location</h4>
           <select
             className="filter-dropdown"
             value={selectedState}
