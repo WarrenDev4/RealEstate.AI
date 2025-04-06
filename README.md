@@ -5,10 +5,10 @@ The real estate market is complex and driven with data, yet many investors, buye
 
 **Tools to be used for this project:**
 
-Spring &nbsp; `Spring Boot`
-TensorFlow &nbsp; `TensorFlow`
-React &nbsp; `React`
-MySQL &nbsp; `MySQL`
+`Spring Boot`
+`TensorFlow`
+`React`
+`MySQL`
 
 **Landing Page for RealEstate.AI**
 ![RealEstate AI Landing Page 1](https://github.com/user-attachments/assets/3bb49320-6e85-4c23-b3f7-cd7a0fff1976)
