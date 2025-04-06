@@ -27,9 +27,6 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <Link to="/notifications" className="notification-icon">
-          <FaBell size={22} />
-        </Link>
         <Link to="/profile" className="profile-icon">
           <FaUserCircle size={30} />
         </Link>

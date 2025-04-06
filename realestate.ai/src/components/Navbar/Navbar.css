@@ -36,7 +36,7 @@
 }
 
 .navbar-link:hover {
-  transform: translateY(-2px);
+  color: #f5f5f5;
 }
 
 .icon {
@@ -60,5 +60,5 @@
 
 .profile-icon:hover,
 .notification-icon:hover {
-  color: #bbb;
+  color: #f5f5f5;
 }

@@ -36,6 +36,7 @@ body {
     font-size: 32px; 
     font-weight: bold; 
   }
+
   .chart-container {
     display: flex;
     justify-content: space-around;
@@ -166,3 +167,81 @@ body {
     justify-content: center;
   }
 
+  .location-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 20px 0;
+}
+
+.filter-dropdown,
+.filter-input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #333;
+  min-width: 150px;
+}
+
+.filter-dropdown:hover,
+.filter-input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.filter-dropdown:focus,
+.filter-input:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 6px rgba(0, 86, 179, 0.4);
+}
+
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff; /* Blue color for the button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the search button */
+.search-btn:hover {
+  background-color: blue;
+}
+
+/* Search Button Style */
+.trends-search-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.trends-search-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* For the dropdown (if it's a select dropdown) */
+.filter-dropdown {
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  color: #333;
+}
+
+/* General styling for trend card */
+.trend-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

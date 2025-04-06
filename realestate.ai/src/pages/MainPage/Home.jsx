@@ -63,6 +63,26 @@ const Home = () => {
         <h1 className="dashboard-title" style={{ fontFamily: "Inter, Poppins, Nunito, sans-serif", fontSize: "28px", color: "#171616",}}>
           Dashboard
         </h1>
+        <div className="location-filters">
+          <select className="filter-dropdown" defaultValue="">
+            <option value="" disabled>Select a state</option>
+            {[
+              "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
+              "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+              "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri",
+              "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York",
+              "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island",
+              "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia",
+              "Washington", "West Virginia", "Wisconsin", "Wyoming"
+            ].map((state) => (
+              <option key={state} value={state}>{state}</option>
+            ))}
+          </select>
+          <input className="filter-input" type="text" placeholder="City" />
+          <input className="filter-input" type="text" placeholder="County" />
+          <input className="filter-input" type="text" placeholder="ZIP Code" />
+          <button id="search-btn" class="search-btn">Search</button>
+        </div>
         <section>
           <div className="chart-container">
             {chartData.map((chart, index) => (
