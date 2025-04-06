@@ -5,10 +5,10 @@ The real estate market is complex and driven with data, yet many investors, buye
 
 **Tools to be used for this project:**
 
-`Spring Boot`
-`TensorFlow`
-`React`
-`MySQL`
+- `Spring Boot`- Creating the backend and server for the application.
+- `TensorFlow` - Integrating AI powered data analytics with TensorFlow for analyzing real estate market data and financial trends.
+- `React` - For clean and sleek frontend and UI Design.
+- `MySQL` - Relational database handling for user authentication.
 
 **Landing Page for RealEstate.AI**
 ![RealEstate AI Landing Page 1](https://github.com/user-attachments/assets/3bb49320-6e85-4c23-b3f7-cd7a0fff1976)
