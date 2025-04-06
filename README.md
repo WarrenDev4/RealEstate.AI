@@ -23,7 +23,7 @@ The real estate market is complex, often with vast amounts of unstructured and f
 
 **Early Build of the Trends Page (Sample data shown)**
 
-![RealEstate AI Early Trends Page](https://github.com/user-attachments/assets/f6bd6bfc-afd3-4382-a945-aaef88bec801)
+![REAI Trend](https://github.com/user-attachments/assets/ccd81d6c-e0bb-4470-9ac0-d59b04b00375)
 
 **Update: I plan on adding a real estate API for TensorFlow to analyze market data for predictive analytics, forecasting and more. Major additions and implemenations will be coming very soon!**
 
