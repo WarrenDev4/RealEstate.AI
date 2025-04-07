@@ -1,12 +1,12 @@
 import React from 'react';
 import { LayoutProvider } from "../../context/LayoutContext";
 
-{/* Properties Page */}
-const Properties = () => {
+{/* Forecasting Page */}
+const Forecasting = () => {
   return (
     <LayoutProvider>
     </LayoutProvider>
   );
 };
 
-export default Properties;
+export default Forecasting;
