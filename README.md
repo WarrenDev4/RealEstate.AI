@@ -32,6 +32,6 @@ The real estate market is complex, often with vast amounts of unstructured and f
 **Early Build of Forecasting Page (Sample data shown)**
 ![RealEstate AI Forecast](https://github.com/user-attachments/assets/4565aa92-fdda-4d67-a439-3a841448cb4e)
 
-**Update: I have decided to take a much meeded break from development of RealEstate.AI for now. I will return to the development of the application and provide more updates to it when i come back. Don't worry when development resumes
+**Update: I have decided to take a much  needed break from development of RealEstate.AI for now. I will return to the development of the application and provide more updates to it when i come back. Don't worry when development resumes
 many new features and additions will be added towards its completion! 🚀**
 
