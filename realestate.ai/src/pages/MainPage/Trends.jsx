@@ -136,7 +136,7 @@ const Trends = () => {
             color: "#171616",
           }}
         >
-          Trends
+          Market Trends
         </h1>
 
         {/* Location Filter Section */}
