@@ -21,7 +21,7 @@ const MainContent = () => {
       <h2 class="headline">Welcome to RealEstate.AI</h2>
       <p class="description">
         RealEstate.AI is an AI-driven real estate tool designed to analyze data that provides
-        insights into market trends, property valuations, neighborhood analysis, investment forecasting, and comparable sales data.
+        insights into market trends, neighborhood analysis, investment forecasting, and comparable sales data.
       </p>
       <RegisterButton />
     </div>

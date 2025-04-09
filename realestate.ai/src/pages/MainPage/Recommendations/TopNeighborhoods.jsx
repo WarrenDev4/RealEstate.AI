@@ -2,14 +2,14 @@ import React from "react";
 import { LayoutProvider } from "../../../context/LayoutContext";
 
 {/* Top Properties Page */}
-const TopProperties = () => {
+const TopNeighborhoods = () => {
   return (
     <LayoutProvider>
       <div className="page-container">
-        <h1 className="page-title">🏡 Top Properties</h1>
+        <h1 className="page-title">🏡 Top Neighborhoods</h1>
       </div>
     </LayoutProvider>
   );
 };
 
-export default TopProperties;
+export default TopNeighborhoods;
