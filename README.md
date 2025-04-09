@@ -12,9 +12,13 @@ The real estate market is complex, often with vast amounts of unstructured and f
 - `Chart.js` - Generating charts for displaying real estate data in real time.
 
 **Landing Page for RealEstate.AI**
+
+This is the landing page for RealEstate.AI. It will be the first page the user goes to once they access the application.
 ![RealEstate AI 1](https://github.com/user-attachments/assets/d7f60bbf-742e-462e-ac76-8edafaf3fb4b)
 
 **Register and Login pages for RealEstate.AI**
+
+These are the Register and Login pages where the user can sign up for RealEstate.AI and create an account in order to use the application.
 ![RealEstate AI Sign Up](https://github.com/user-attachments/assets/35cb6140-e3fd-48f2-b976-6694da18ca83)
 
 ![RealEstate AI Sign In Page](https://github.com/user-attachments/assets/520de861-1585-4f47-b055-c97734264482)
