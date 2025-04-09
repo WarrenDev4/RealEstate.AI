@@ -98,7 +98,7 @@ const Home = () => {
         {/* Sample Data for the Metric Cards */}
         <section className="key-metrics">
           <div className="metric-card">
-            <h3>📊 Avg. Market Price</h3>
+            <h3>📊 Average Market Price</h3>
             <p>$390,000</p>
           </div>
           <div className="metric-card">
@@ -123,7 +123,7 @@ const Home = () => {
               color: "#2e2c2c",
             }}>AI-Powered Recommendations</h2>
           <div className="recommendation-list">
-            <div className="recommendation-item" onClick={() => handleNavigation("/top-properties")}>🏡 Top properties to watch</div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/top-neighborhoods")}>🏡 Top neighborhoods to watch</div>
             <div className="recommendation-item" onClick={() => handleNavigation("/rising-values")}>📍 Rising property values </div>
             <div className="recommendation-item" onClick={() => handleNavigation("/investment-opportunities")}>💰 Investment Opportunities</div>
           </div>

@@ -18,8 +18,8 @@ const Navbar = () => {
         <Link to="/trends" className="navbar-link">
           <FaChartLine className="icon" /> Trends
         </Link>
-        <Link to="/properties" className="navbar-link">
-          <FaBuilding className="icon" /> Properties
+        <Link to="/neighborhoods" className="navbar-link">
+          <FaBuilding className="icon" /> Neighborhoods
         </Link>
         <Link to="/forecasting" className="navbar-link">
           <FaBullseye className="icon" /> Forecasting
