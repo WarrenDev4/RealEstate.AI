@@ -19,6 +19,8 @@ The real estate market is complex, often with vast amounts of unstructured and f
 ![RealEstate AI Sign In Page](https://github.com/user-attachments/assets/520de861-1585-4f47-b055-c97734264482)
 
 **Build of the Home Page (Sample data shown)**
+
+The Home page is designed with a dashboard that allow users to select a state that will display real estate data based on its city, county or zip code. The real estate data will display on dashboard charts that will generate in real time from the API. With the utilization of Chart.js, users can gain insights on "Market Distribution", "Property Sales", and "Investment Types". Users can also view the Average Market Price, Recently Analyzed properties, Trending Neighborhoods and the Investment Score for each state based on location data. There is also a section called "AI-Powered Recommendations" where users can view recommendations on which top neighborhoods to look out for in "Top neighborhoods to watch", view property values that are increasing in "Rising property values", and view "Investment Oppurtunities". These features will be powered by Tensorflow's analysis of the data from the API.
 ![RealEstate AI Home](https://github.com/user-attachments/assets/be5c340c-9845-4ad2-974d-12477b7ebf17)
 
 **Early Build of the Trends Page (Sample data shown)**
