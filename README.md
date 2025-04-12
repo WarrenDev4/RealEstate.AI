@@ -9,7 +9,7 @@ The real estate market is complex, often with vast amounts of unstructured and f
 **RealEstate.AI** is a software development project intended for **research, educational, and demonstration purposes only**.  
 It is **not** designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice.  
  
-I am a **software developer** with an interest in exploring real estate data through technology.  
+I am a **software developer** with an interest in creating a software project that explores and analyzes real estate data through Artificial Intelligence.  
 I am **not** a licensed real estate professional, and this project is for **development and experimentation only**.  
 
 The data and insights provided are based on **available public or test data** and should **not** be relied upon for real-world real estate decisions.  
