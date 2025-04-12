@@ -3,6 +3,8 @@ RealEstate.AI is an AI-powered real estate tool designed to help users make info
 
 The real estate market is complex, often with vast amounts of unstructured and fragmented data. Investors, buyers, and real estate professionals often struggle to sift through this data to make accurate decisions. Traditional market analysis methods can lack efficiency and accuracy, potentially leading to poor investment choices. RealEstate.AI aims to solve this problem by leveraging artificial intelligence to process real estate data, offering neighborhood insights, and comparable sales data. With AI being driving force of innovation in software development and in many other industries, RealEstate.AI’s goal is to provide users with actionable insights based on available data, helping them make informed and confident real estate decisions.
 
+**DISCLAIMER: RealEstate.AI is a software development project intended for research, educational, and demonstration purposes only. It is not designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice. The data and insights provided are based on available public data and should not be relied upon for real-world real estate decisions.**
+
 **Tools being used for this project:**
 
 - `Spring Boot`- Creating the backend and server for the application.
