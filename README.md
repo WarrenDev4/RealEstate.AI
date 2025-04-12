@@ -3,9 +3,11 @@ RealEstate.AI is an AI-powered real estate tool designed to help users make info
 
 The real estate market is complex, often with vast amounts of unstructured and fragmented data. Investors, buyers, and real estate professionals often struggle to sift through this data to make accurate decisions. Traditional market analysis methods can lack efficiency and accuracy, potentially leading to poor investment choices. RealEstate.AI aims to solve this problem by leveraging artificial intelligence to process real estate data, offering neighborhood insights, and comparable sales data. With AI being driving force of innovation in software development and in many other industries, RealEstate.AI’s goal is to provide users with actionable insights based on available data, helping them make informed and confident real estate decisions.
 
+---------------------------------------------------------------------------------------------------
 ### <strong>DISCLAIMER (PLEASE READ THIS THOROUGHLY BEFORE READING ANY FURTHER):<strong>
 
 **RealEstate.AI is a software development project intended for research, educational, and demonstration purposes only. It is not designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice. The data and insights provided are based on available public data and should not be relied upon for real-world real estate decisions. The goal of this project is to demonstrate the potential of artificial intelligence in analyzing and interpreting real estate data. While I aim for the highest possible accuracy in data processing and analysis, the results are not guaranteed to be precise or suitable for real-world use. Please take this as a piece of software — not a commercial or professional real estate platform. The insights and data presented are based on publicly available or test data and should not be used for actual investment decisions.**
+-------------------------------------------------------------------------------------------------------
 
 **Tools being used for this project:**
 
