@@ -20,7 +20,8 @@ While I aim for the **highest possible accuracy** in data processing and analysi
 
 The insights and data presented are based on publicly available or test data and should **not** be used for actual investment decisions.
 
-**Please take this as a piece of software — not a commercial or professional real estate platform.**  
+**Please take this as a piece of software — not a commercial or professional real estate platform.** 
+
 ---
 
 
