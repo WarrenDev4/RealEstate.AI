@@ -5,7 +5,7 @@ The real estate market is complex, often with vast amounts of unstructured and f
 
 ---
 
-> **DISCLAIMER (PLEASE READ THIS THOROUGHLY BEFORE READING ANY FURTHER)**  
+> ### **DISCLAIMER (PLEASE READ THIS THOROUGHLY BEFORE READING ANY FURTHER)**  
 >  
 > **RealEstate.AI** is a software development project intended for **research, educational, and demonstration purposes only**.  
 > It is **not** designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice.  
