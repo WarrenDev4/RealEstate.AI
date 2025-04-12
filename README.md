@@ -5,8 +5,7 @@ The real estate market is complex, often with vast amounts of unstructured and f
 
 **DISCLAIMER**
 
-**RealEstate.AI is a software development project intended for research, educational, and demonstration purposes only. It is not designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice. The data and insights provided are based on available public data and should not be relied upon for real-world real estate decisions.
-Please take this as a piece of software — not a commercial or professional real estate platform. The insights and data presented are based on publicly available or test data and should not be used for actual investment decisions.**
+**RealEstate.AI is a software development project intended for research, educational, and demonstration purposes only. It is not designed or licensed for actual real estate transactions, financial decision-making, or professional investment advice. The data and insights provided are based on available public data and should not be relied upon for real-world real estate decisions. The goal of this project is to demonstrate the potential of artificial intelligence in analyzing and interpreting real estate data. While I aim for the highest possible accuracy in data processing and analysis, the results are not guaranteed to be precise or suitable for real-world use. Please take this as a piece of software — not a commercial or professional real estate platform. The insights and data presented are based on publicly available or test data and should not be used for actual investment decisions.**
 
 **Tools being used for this project:**
 
