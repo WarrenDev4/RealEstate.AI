@@ -18,10 +18,9 @@ The data and insights provided are based on **available public or test data** an
 The goal of this project is to demonstrate the **potential of artificial intelligence** in analyzing and interpreting real estate data.  
 While I aim for the **highest possible accuracy** in data processing and analysis, the results are **not guaranteed** to be precise or suitable for real-world use.  
 
-**Please take this as a piece of software — not a commercial or professional real estate platform.**  
-
 The insights and data presented are based on publicly available or test data and should **not** be used for actual investment decisions.
 
+**Please take this as a piece of software — not a commercial or professional real estate platform.**  
 ---
 
 
