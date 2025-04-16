@@ -5,15 +5,13 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
-    // Load the user from localStorage if available
     const storedUser = localStorage.getItem("user");
     return storedUser ? JSON.parse(storedUser) : null;
   });
 
-  const [error, setError] = useState(null); // To manage error state
+  const [error, setError] = useState(null); 
 
   useEffect(() => {
-    // Sync user state with localStorage
     if (user) {
       localStorage.setItem("user", JSON.stringify(user));
     } else {
@@ -29,8 +27,8 @@ export const AuthProvider = ({ children }) => {
       });
 
       if (response.status === 200) {
-        setUser(response.data); // Store user data in state
-        localStorage.setItem("token", response.data.token); // Store token in localStorage
+        setUser(response.data); 
+        localStorage.setItem("token", response.data.token); 
         console.log("Login successful");
       } else {
         throw new Error("Login failed");
@@ -38,7 +36,7 @@ export const AuthProvider = ({ children }) => {
     } catch (error) {
       console.error("Login error:", error);
       setError("Login failed. Please try again.");
-      throw error; // Rethrow error to be handled in the component
+      throw error; 
     }
   };
 
@@ -53,26 +51,26 @@ export const AuthProvider = ({ children }) => {
       });
   
       if (!response.ok) {
-        const errorData = await response.json(); // Parse error response body
-        console.error("Registration error:", errorData); // Log the error message
+        const errorData = await response.json();
+        console.error("Registration error:", errorData); 
         throw new Error(errorData.message || "Registration failed");
       }
   
       const responseData = await response.json();
       console.log("Registration successful", responseData);
-      return responseData; // Return response data
+      return responseData;
     } catch (error) {
       console.error("Registration error:", error);
       setError(error.message || "Registration failed. Please try again.");
-      throw error; // Rethrow error to be handled in the component
+      throw error; 
     }
   };
   
 
   const logout = () => {
-    setUser(null); // Clear the user state
-    localStorage.removeItem("user"); // Remove user data from localStorage
-    localStorage.removeItem("token"); // Remove token from localStorage
+    setUser(null); 
+    localStorage.removeItem("user"); 
+    localStorage.removeItem("token");
   };
 
   return (
