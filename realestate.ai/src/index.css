@@ -49,8 +49,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     text-align: center;
-    border: 1px solid #e0e0e0; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
     width: 30%;
     font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
 }
@@ -66,8 +65,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
-    border: 1px solid #e0e0e0; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
     flex: 1;
     margin: 5px;
     text-align: center;
@@ -100,7 +98,7 @@ body {
     border-radius: 8px;
     flex: 1;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.2); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, opacity 0.5s ease;
   }
@@ -157,7 +155,7 @@ body {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
     width: 300px;
     height: 300px;
     display: flex;
@@ -224,7 +222,7 @@ body {
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
 }
 
 .neighborhoods-page {
@@ -278,10 +276,10 @@ body {
 }
 
 .neighborhood-card {
-  border: 1px solid #dddddd;
   border-radius: 8px;
   overflow: hidden;
   background-color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
 }
 
 .neighborhood-card:hover {
@@ -366,7 +364,7 @@ body {
   padding: 20px;
   margin: 10px;
   border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -393,6 +391,5 @@ body {
   justify-content: center;
   color: #777;
   font-size: 14px;
-  border: 2px dashed #c3c3c3;
 }
 
