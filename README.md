@@ -26,7 +26,7 @@ The insights and data presented are based on publicly available or test data and
 
 **Tools being used for this project:**
 
-- `Spring Boot`- Creating the backend and server for the application.
+- `Spring Boot`- Creating the backend and web server for the application.
 - `TensorFlow` - Integrating AI powered data analytics with TensorFlow for analyzing real estate market data and financial trends.
 - `React` - For clean and sleek frontend and UI Design.
 - `MySQL` - Relational database handling for user authentication.
@@ -55,7 +55,7 @@ Users can also view the **Average Market Price**, **Recently Analyzed properties
 There is also a section called **"AI-Powered Recommendations"** where users can view recommendations on which top neighborhoods to look out for in **"Top neighborhoods to watch"**, view property values that are increasing in **"Rising property values"**, and view **"Investment Oppurtunities"**. These features will be powered by TensorFlow's analysis of the data from the real estate property API.
 ![Home Page](https://github.com/user-attachments/assets/f7ff9bb7-514d-4f92-9f89-344a9ef581f1)
 
-**Early Build of the Trends Page (Only demo data shown. No real data has been generated yet).**
+**Build of the Trends Page (Only demo data shown. No real data has been generated yet).**
 
 The Trends page allows users to gain insights on Market Trends in each state (city, county or zip code) such as **Average Property Prices**, **Property Demand** and **Investment Growth**. Users can engage with current trends in the real estate market seamlessly with this feature. More content will be added to this page soon. 
 ![Market Trends](https://github.com/user-attachments/assets/636e3099-4473-48c5-8327-31b31ca5bc81)
