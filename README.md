@@ -58,8 +58,7 @@ There is also a section called **"AI-Powered Recommendations"** where users can 
 **Early Build of the Trends Page (Only demo data shown. No real data has been generated yet).**
 
 The Trends page allows users to gain insights on Market Trends in each state (city, county or zip code) such as **Average Property Prices**, **Property Demand** and **Investment Growth**. Users can engage with current trends in the real estate market seamlessly with this feature. More content will be added to this page soon. 
-![Trends Page](https://github.com/user-attachments/assets/249cde3a-80fc-4145-8220-05a3583304f7)
-
+![Market Trends](https://github.com/user-attachments/assets/636e3099-4473-48c5-8327-31b31ca5bc81)
 
 
 **Early Build of Neighborhoods Page (Only demo data shown. No real data has been generated yet).**
