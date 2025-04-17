@@ -46,12 +46,18 @@ These are the Register and Login pages where the user can sign up for RealEstate
 
 **Build of the Home Page (Only demo data shown. No real data has been generated yet).**
 
-The Home page is designed with a dashboard that allow users to select a state that will display real estate data based on its city, county or zip code. The real estate data will display on dashboard charts that will generate in real time from the API. With the utilization of Chart.js, users can gain insights on "Market Distribution", "Property Sales", and "Investment Types". Users can also view the Average Market Price, Recently Analyzed properties, Trending Neighborhoods and the Investment Score for each state based on location data. There is also a section called "AI-Powered Recommendations" where users can view recommendations on which top neighborhoods to look out for in "Top neighborhoods to watch", view property values that are increasing in "Rising property values", and view "Investment Oppurtunities". These features will be powered by TensorFlow's analysis of the data from the real estate property API.
+The Home page is designed with a dashboard that allow users to select a state that will display real estate data based on its city, county or zip code. The real estate data will display on dashboard charts that will generate in real time from the API. 
+
+With the utilization of Chart.js, users can gain insights on **"Market Distribution"**, **"Property Sales"**, and **"Investment Types"**. 
+
+Users can also view the **Average Market Price**, **Recently Analyzed properties**, **Trending Neighborhoods** and the **Investment Score** for each state based on location data. 
+
+There is also a section called **"AI-Powered Recommendations"** where users can view recommendations on which top neighborhoods to look out for in **"Top neighborhoods to watch"**, view property values that are increasing in **"Rising property values"**, and view **"Investment Oppurtunities"**. These features will be powered by TensorFlow's analysis of the data from the real estate property API.
 ![Home Page](https://github.com/user-attachments/assets/f7ff9bb7-514d-4f92-9f89-344a9ef581f1)
 
 **Early Build of the Trends Page (Only demo data shown. No real data has been generated yet).**
 
-The Trends page allows users to gain insights on Market Trends in each state (city, county or zip code) such as Average Property Prices, Property Demand and Investment Growth. Users can engage with current trends in the real estate market seamlessly with this feature. More content will be added to this page soon. 
+The Trends page allows users to gain insights on Market Trends in each state (city, county or zip code) such as **Average Property Prices**, **Property Demand** and **Investment Growth**. Users can engage with current trends in the real estate market seamlessly with this feature. More content will be added to this page soon. 
 ![Trends Page](https://github.com/user-attachments/assets/249cde3a-80fc-4145-8220-05a3583304f7)
 
 
