@@ -11,6 +11,7 @@ import {
   Legend,
 } from "chart.js";
 import { LayoutProvider } from "../../context/LayoutContext";
+import { useNavigate }  from "react-router-dom";
 
 Chart.register(
   LineElement,
@@ -28,6 +29,14 @@ const Trends = () => {
   const [county, setCounty] = useState("");
   const [zipCode, setZipCode] = useState("");
 
+   const navigate = useNavigate();
+    const [fade, setFade] = useState(false);
+  
+    const handleNavigation = (path) => {
+      setFade(true);
+      setTimeout(() => navigate(path), 500); 
+    };
+    
   const statesList = [
     { code: "AL", name: "Alabama" },
     { code: "AK", name: "Alaska" },
@@ -175,9 +184,23 @@ const Trends = () => {
           <div className="trend-card">
             <h3>💰 Investment Growth</h3>
             <Line data={investmentGrowthData} options={{ maintainAspectRatio: false }} />
+          </div>   
           </div>
+          <section className={`recommendations ${fade ? "fade-out" : ""}`}>
+          <h2 className="dashboard-title"
+            style={{
+              fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+              fontSize: "18px",
+              fontWeight: "17px",
+              color: "#2e2c2c",
+            }}>AI-Powered Analytics</h2>
+          <div className="recommendation-list">
+            <div className="recommendation-item" onClick={() => handleNavigation("/market-predictions")}>🏠 Market Predictions</div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/trend-analysis")}>📈 Trend Analysis</div>
+            <div className="recommendation-item" onClick={() => handleNavigation("/investment-analytics")}>💲Investment Analytics</div>
         </div>
-      </div>
+        </section>
+        </div>
     </LayoutProvider>
   );
 };
