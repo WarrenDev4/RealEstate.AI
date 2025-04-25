@@ -26,11 +26,11 @@ The insights and data presented are based on publicly available or test data and
 
 **Tools being used for this project:**
 
-- `Spring Boot`- Creating the backend and web server for the application.
-- `TensorFlow` - Integrating AI powered data analytics with TensorFlow for analyzing real estate market data and financial trends.
-- `React` - For clean and sleek frontend and UI Design.
-- `MySQL` - Relational database handling for user authentication.
-- `Chart.js` - Generating charts for displaying real estate data in real time.
+- `Spring Boot`- Creating the backend and web server for the application, managing API endpoints, handling logic for real estate data processing, and connecting to the database and AI modules.
+- `TensorFlow` -  Integrating AI-powered data analytics with TensorFlow to analyze real estate market data, predict trends, forecast investments, and recommend optimal neighborhoods based on machine learning models.
+- `React` - Building a clean, modern, and intuitive frontend interface for users to view market insights, financial forecasts, interactive maps, and neighborhood analysis results.
+- `MySQL` - Managing relational database storage for user authentication, saved searches, market data records, AI analysis outputs, and user-generated content like saved properties or investment forecasts.
+- `Chart.js` - Generating responsive, real-time charts to visualize market trends, price fluctuations, neighborhood comparisons, and predictive analytics outputs for a more interactive data experience.
 
 **Landing Page for RealEstate.AI**
 
