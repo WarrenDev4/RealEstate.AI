@@ -184,19 +184,30 @@ body {
 }
 
 .search-btn {
-  padding: 10px 20px;
+  padding: 8px 16px;
   border: none;
   border-radius: 8px;
   background-color: #007bff;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
   cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;        
+  align-self: flex-start;
+  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
 }
 
 .search-btn:hover {
   background-color: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 86, 179, 0.35);
 }
 
+.search-btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
 .neighborhoods-page {
   padding: 2rem;
   max-width: 1200px;
@@ -357,10 +368,6 @@ body {
   flex: 1 1 140px;
   min-width: 0;
   box-sizing: border-box;
-}
-
-.search-btn {
-  flex: 1 1 100%;
 }
 
 .forecast-dashboard {
