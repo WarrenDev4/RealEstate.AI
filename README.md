@@ -24,15 +24,6 @@ The insights and data presented are based on publicly available or test data and
 
 ---
 
-
-**Tools being used for this project:**
-
-- `Spring Boot`- Creating the backend and web server for the application, managing API endpoints, handling logic for real estate data processing, and connecting to the database and AI modules.
-- `TensorFlow` -  Integrating AI-powered data analytics with TensorFlow to analyze real estate market data, predict trends, forecast investments, and recommend optimal neighborhoods based on machine learning models.
-- `React` - Building a clean, modern, and intuitive frontend interface for users to view market insights, financial forecasts, interactive maps, and neighborhood analysis results.
-- `MySQL` - Managing relational database storage for user authentication, saved searches, market data records, AI analysis outputs, and user-generated content like saved properties or investment forecasts.
-- `Chart.js` - Generating responsive, real-time charts to visualize market trends, price fluctuations, neighborhood comparisons, and predictive analytics outputs for a more interactive data experience.
-
 **Landing Page for RealEstate.AI**
 
 This is the landing page for RealEstate.AI. It will be the first page the user goes to once they access the application.
@@ -42,7 +33,7 @@ This is the landing page for RealEstate.AI. It will be the first page the user g
 <img width="1918" height="867" alt="nsb" src="https://github.com/user-attachments/assets/5942f713-8678-400c-a772-f0bd68360072" />
 
 **Home Page (Only demo data shown. No real data has been generated).**
-<img width="1918" height="865" alt="Screenshot 2026-03-22 175431" src="https://github.com/user-attachments/assets/5c6cae41-a80c-4bbb-84af-cf2c629ca30b" />
+<img width="1896" height="861" alt="Screenshot 2026-03-22 175401" src="https://github.com/user-attachments/assets/edbd0dde-632f-4ccd-943e-c886b59c19a5" />
 
 **Trends Page**
 <img width="1918" height="865" alt="Screenshot 2026-03-22 175431" src="https://github.com/user-attachments/assets/90df7dd3-a845-451f-82cb-f7ac03b0d661" />
