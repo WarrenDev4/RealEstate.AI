@@ -18,7 +18,7 @@ const Login = () => {
         </div>
         <form onSubmit={handleSubmit} className="login-form">
           <p className="demo-notice">
-            🚀 This project is just a demo. No need to enter any credentials!
+            This project is just a demo. No need to enter any credentials!
           </p>
           <button type="submit" className="login-btn">Log In</button>
           <p className="register-text">
