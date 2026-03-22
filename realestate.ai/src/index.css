@@ -15,186 +15,172 @@ code {
 }
 
 body {
-    font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
 }
 
-.home-page {
-    padding: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-  }
-
-  .trends {
-    padding: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: #333;
-  }
-
- .dashboard-title {
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255); 
-    font-size: 32px; 
-    font-weight: bold; 
-  }
-
-  .chart-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .chart-card {
-    background: white;
-    color: black;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    width: 30%;
-    font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+.home-page,
+.trends {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
 }
 
-  .key-metrics {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-  }
-  
-  .metric-card {
-    background: white;
-    padding: 20px;
-    border-radius: 20px;
-    font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    flex: 1;
-    margin: 5px;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .market-trends {
-    margin: 30px 0;
-  }
-  
-  .chart-placeholder {
-    height: 200px;
-    background: #ddd;
-    border-radius: 8px;
-    text-align: center;
-    line-height: 200px;
-  }
-  
-  .recommendation-list {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .recommendation-item {
-    background: #218cff;
-    font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: 740;
-    padding: 15px;
-    border-radius: 8px;
-    flex: 1;
-    text-align: center;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, opacity 0.5s ease;
-  }
+.dashboard-title {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: bold;
+}
 
-  .recommendation-item:hover {
-    background-color: #043ad0;
-  }
-  
-  .fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-  }
-  
-  .latest-news {
-    margin: 30px 0;
-  }
-  
-  .news-item {
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 5px;
-  }
-  
-  .quick-actions {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .action-buttons button {
-    background: #007bff;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    margin: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .action-buttons button:hover {
-    background: #0056b3;
-  }
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-    justify-content: center;
-  }
+.chart-card {
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 350px;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+}
 
-  .trend-card {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.key-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
 
-  .location-filters {
+.metric-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  min-width: 200px;
+}
+
+.market-trends {
+  margin: 30px 0;
+}
+
+.chart-placeholder {
+  height: 200px;
+  background: #ddd;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.recommendation-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.recommendation-item {
+  background: #218cff;
+  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 740;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, opacity 0.5s ease;
+  min-width: 200px;
+}
+
+.recommendation-item:hover {
+  background-color: #043ad0;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.latest-news {
+  margin: 30px 0;
+}
+
+.news-item {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.quick-actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.action-buttons button {
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action-buttons button:hover {
+  background: #0056b3;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.trend-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: auto;
+}
+
+.location-filters,
+.filters,
+.filter-section {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin: 20px 0;
 }
 
 .filter-dropdown,
-.filter-input {
+.filter-input,
+.filter-select {
   padding: 10px 14px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 14px;
   font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
-  transition: all 0.2s ease-in-out;
   background-color: #fff;
   color: #333;
   min-width: 150px;
-}
-
-.filter-dropdown:hover,
-.filter-input:hover {
-  border-color: #007bff;
-  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
-}
-
-.filter-dropdown:focus,
-.filter-input:focus {
-  outline: none;
-  border-color: #0056b3;
-  box-shadow: 0 0 6px rgba(0, 86, 179, 0.4);
 }
 
 .search-btn {
@@ -205,24 +191,10 @@ body {
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .search-btn:hover {
-  background-color: blue;
-}
-
-
-.filter-dropdown {
-  font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
-  color: #333;
-}
-
-.trend-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  background-color: #0056b3;
 }
 
 .neighborhoods-page {
@@ -238,41 +210,10 @@ body {
   font-weight: 600;
 }
 
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.filter-select,
-.filter-input {
-  padding: 0.6rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  min-width: 180px;
-}
-
-.search-btn {
-  padding: 0.6rem 1.2rem;
-  background-color: #007bff;
-  border: none;
-  color: white;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.search-btn:hover {
-  background-color: #0056b3;
-}
-
 .neighborhood-listings {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
-  margin-bottom: 2rem;
 }
 
 .neighborhood-card {
@@ -280,10 +221,6 @@ body {
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-}
-
-.neighborhood-card:hover {
-  border-color:#007bff;
 }
 
 .neighborhood-card img {
@@ -294,10 +231,6 @@ body {
 
 .neighborhood-info {
   padding: 1rem;
-}
-
-.map-placeholder {
-  margin-top: 2rem;
 }
 
 .map-box {
@@ -311,45 +244,7 @@ body {
 
 .forecasting-page {
   padding: 40px;
-  font-family: 'Segoe UI', sans-serif;
   background-color: #f8f9fb;
-}
-
-.page-title {
-  font-size: 26px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.filter-section {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  margin-bottom: 32px;
-}
-
-.filter-dropdown,
-.filter-input {
-  padding: 10px 14px;
-  font-size: 15px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  min-width: 180px;
-}
-
-.search-btn {
-  background-color: #0077cc;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 15px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.search-btn:hover {
-  background-color: #005fa3;
 }
 
 .forecast-dashboard {
@@ -358,38 +253,254 @@ body {
   gap: 24px;
 }
 
+.dashboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .chart-box {
-  width: 32%;
+  width: 100%;
+  max-width: 350px;
   background-color: #ffffff;
   padding: 20px;
   margin: 10px;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
-  display: inline-block;
-  vertical-align: top;
+}
+
+@media (max-width: 768px) {
+
+  .dashboard-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .chart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .key-metrics {
+    flex-direction: column;
+  }
+
+  .recommendation-list {
+    flex-direction: column;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .filters,
+  .filter-section,
+  .location-filters {
+    flex-direction: column;
+  }
+
+  .filter-dropdown,
+  .filter-input,
+  .filter-select,
+  .search-btn {
+    width: 100%;
+  }
+
+  .neighborhood-listings {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-box {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .dashboard-title {
+    font-size: 20px;
+  }
+
+  .page-title {
+    font-size: 20px;
+  }
+
+  .chart-placeholder {
+    height: 150px;
+  }
+
+  .map-box {
+    height: 200px;
+  }
+
+  .action-buttons button {
+    width: 100%;
+  }
+}
+
+.filters,
+.filter-section,
+.location-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-select,
+.filter-dropdown,
+.filter-input {
+  flex: 1 1 140px;
+  min-width: 0;
   box-sizing: border-box;
+}
+
+.search-btn {
+  flex: 1 1 100%;
+}
+
+.forecast-dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .dashboard-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  gap: 16px;
 }
 
-.chart-box h3 {
-  margin-bottom: 16px;
-  font-size: 18px;
+.chart-box {
+  flex: 1 1 280px;
+  min-width: 0;
 }
 
-.chart-placeholder {
-  height: 180px;
-  background-color: #eef2f5;
-  border-radius: 8px;
+.chart-inner {
+  position: relative;
+  height: 220px;
+  width: 100%;
+}
+
+.neighborhood-listings {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #777;
-  font-size: 14px;
+  flex-direction: column;
+  gap: 12px;
 }
 
+.neighborhood-card {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.map-box {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .page-title,
+  .dashboard-title {
+    font-size: 22px !important;
+  }
+
+  .chart-box {
+    flex: 1 1 100%;
+  }
+
+  .filter-select,
+  .filter-dropdown,
+  .filter-input {
+    flex: 1 1 100%;
+  }
+
+  .chart-inner {
+    height: 180px;
+  }
+}
+
+.chart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.chart-card {
+  flex: 1 1 200px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 180px;
+  width: 100%;
+}
+
+.key-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.metric-card {
+  flex: 1 1 140px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .dashboard-title {
+    font-size: 22px !important;
+  }
+
+  .chart-card {
+    flex: 1 1 100%;
+  }
+
+  .chart-wrapper {
+    height: 200px;
+  }
+
+  .metric-card {
+    flex: 1 1 calc(50% - 6px);
+  }
+
+  .recommendation-item {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.trend-card {
+  flex: 1 1 280px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.trend-card .chart-inner {
+  position: relative;
+  height: 220px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .trend-card {
+    flex: 1 1 100%;
+  }
+
+  .trend-card .chart-inner {
+    height: 200px;
+  }
+}

@@ -13,7 +13,7 @@ const MainContent = () => {
     <a href="/">
       <img src="/images/RealEstate.AI Logo Black.png" alt="RealEstate.AI Black" class="realestate-logo" />
     </a>
-    <LoginButton />
+  
   </div>
 
   <div class="content-wrapper">
@@ -23,7 +23,7 @@ const MainContent = () => {
         RealEstate.AI is an AI-driven real estate tool designed to analyze data that provides
         insights into market trends, neighborhood analysis, investment forecasting, and comparable sales data.
       </p>
-      <RegisterButton />
+      <LoginButton />
     </div>
   </div>
 </section>

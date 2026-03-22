@@ -62,3 +62,47 @@
 .notification-icon:hover {
   color: #cdcdcd;
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #21292e;
+
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .navbar-links.active {
+    max-height: 300px;
+  }
+
+  .navbar-link {
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .navbar-right {
+    margin-left: auto;
+  }
+}

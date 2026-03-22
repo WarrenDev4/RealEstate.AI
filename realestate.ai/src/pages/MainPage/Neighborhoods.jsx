@@ -38,33 +38,14 @@ const Neighborhoods = () => {
             ))}
           </select>
 
-          <input
-            className="filter-input"
-            type="text"
-            placeholder="City"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
+          <input className="filter-input" type="text" placeholder="City"
+            value={city} onChange={(e) => setCity(e.target.value)} />
+          <input className="filter-input" type="text" placeholder="County"
+            value={county} onChange={(e) => setCounty(e.target.value)} />
+          <input className="filter-input" type="text" placeholder="ZIP Code"
+            value={zip} onChange={(e) => setZip(e.target.value)} />
 
-          <input
-            className="filter-input"
-            type="text"
-            placeholder="County"
-            value={county}
-            onChange={(e) => setCounty(e.target.value)}
-          />
-
-          <input
-            className="filter-input"
-            type="text"
-            placeholder="ZIP Code"
-            value={zip}
-            onChange={(e) => setZip(e.target.value)}
-          />
-
-          <button id="search-btn" className="search-btn" onClick={handleSearch}>
-            Search
-          </button>
+          <button className="search-btn" onClick={handleSearch}>Search</button>
         </div>
 
         <div className="neighborhood-listings">

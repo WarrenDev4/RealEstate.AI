@@ -100,3 +100,93 @@
 .register-button:hover {
   background-color: #0084ff;
 }
+
+@media (max-width: 1024px) {
+
+  .header {
+    padding: 20px 40px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .realestate-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin-bottom: 10px;
+  }
+
+  .login-button,
+  .register-button {
+    padding: 12px 30px;
+    font-size: 15px;
+    width: auto;
+  }
+
+  .headline {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  .content-wrapper {
+    height: auto;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .text-section {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    padding: 15px 20px;
+  }
+
+  .login-button,
+  .register-button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+  .headline {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .text-section {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .headline {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+
+  .login-button,
+  .register-button {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}

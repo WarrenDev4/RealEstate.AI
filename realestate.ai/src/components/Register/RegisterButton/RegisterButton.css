@@ -1,23 +1,44 @@
 .register-button {
-    padding: 15px 60px;
-    background-color: #00BFFF;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 25px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: all 0.3s ease;
-    border: none;
-    outline: none;
+  padding: 14px 40px;
+  background-color: #00BFFF;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.25s ease;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  min-height: 48px;
+  text-align: center;
+}
+
+
+.register-button:hover {
+  background-color: #0084ff;
+  transform: translateY(-1px);
+}
+
+
+.register-button:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 768px) {
+  .register-button {
+    width: 100%;             
+    padding: 14px 20px;       
+    font-size: 15px;
+    border-radius: 12px;     
   }
-    
-    .register-button:hover {
-      background-color: #0084ff;
-    }
-    
-    .register-button:focus {
-      outline: none; 
-    }
-    
+}
+
+@media (max-width: 480px) {
+  .register-button {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+}

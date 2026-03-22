@@ -6,7 +6,7 @@ import "./LoginButton.css"
 const LoginButton = () => {
     return (
         <Link to="/login">
-            <button className="login-button">Log In</button>
+            <button className="login-button">Enter Here</button>
         </Link>
     )
 }

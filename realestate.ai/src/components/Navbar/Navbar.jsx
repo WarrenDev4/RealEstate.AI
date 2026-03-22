@@ -1,28 +1,50 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaUserCircle, FaHome, FaChartLine, FaBuilding, FaBullseye, FaBell,} from "react-icons/fa";
+import {
+  FaUserCircle,
+  FaHome,
+  FaChartLine,
+  FaBuilding,
+  FaBullseye,
+  FaBars,
+  FaTimes,
+} from "react-icons/fa";
 import "./Navbar.css";
 
-{/* Component for the Navbar */}
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        <img src="/images/RealEstate.AI Logo White.png" alt="RealEstate.AI Logo" className="realestatelogo" height="50" width="210" />
+        <img
+          src="/images/RealEstate.AI Logo White.png"
+          alt="RealEstate.AI Logo"
+          height="50"
+        />
       </Link>
 
-      <div className={`navbar-links`}>
-        <Link to="/home" className="navbar-link">
-          <FaHome className="icon" /> Home
+      {/* Hamburger Button */}
+      <div
+        className="hamburger"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+      </div>
+
+      {/* Links */}
+      <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
+        <Link to="/home" className="navbar-link" onClick={() => setMenuOpen(false)}>
+          <FaHome /> Home
         </Link>
-        <Link to="/trends" className="navbar-link">
-          <FaChartLine className="icon" /> Trends
+        <Link to="/trends" className="navbar-link" onClick={() => setMenuOpen(false)}>
+          <FaChartLine /> Trends
         </Link>
-        <Link to="/neighborhoods" className="navbar-link">
-          <FaBuilding className="icon" /> Neighborhoods
+        <Link to="/neighborhoods" className="navbar-link" onClick={() => setMenuOpen(false)}>
+          <FaBuilding /> Neighborhoods
         </Link>
-        <Link to="/forecasting" className="navbar-link">
-          <FaBullseye className="icon" /> Forecasting
+        <Link to="/forecasting" className="navbar-link" onClick={() => setMenuOpen(false)}>
+          <FaBullseye /> Forecasting
         </Link>
       </div>
 

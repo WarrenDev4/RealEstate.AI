@@ -80,4 +80,12 @@
   text-decoration: underline;
 }
 
-
+.demo-notice {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #f0f0f0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
