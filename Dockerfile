@@ -1,9 +1,11 @@
-FROM eclipse-temurin:17-jre-jammy
+FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
 
-COPY target/real-estate-ai-0.0.1-SNAPSHOT.jar app.jar
+COPY . .
+
+RUN chmod +x mvnw && ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "target/real-estate-ai-0.0.1-SNAPSHOT.jar"]
