@@ -7,6 +7,17 @@
   background: linear-gradient(90deg, rgba(35,53,75,1) 0%, rgba(9,53,121,1) 43%, rgba(0,212,255,1) 100%);
 }
 
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .login-card {
   background: rgba(30, 25, 25, 0.71);
   padding: 20px;
@@ -15,6 +26,7 @@
   width: 100%;
   max-width: 400px;
   text-align: center;
+  animation: fadeScaleIn 0.4s ease-out 0.05s both;
 }
 
 .logo img {

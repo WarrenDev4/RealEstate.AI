@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Nunito:wght@400;600&display=swap');
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeScaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,6 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 code {
@@ -49,7 +66,13 @@ body {
   width: 100%;
   max-width: 350px;
   font-family: 'Inter', 'Poppins', 'Nunito', sans-serif;
+  animation: fadeScaleIn 0.4s ease-out both;
 }
+
+.chart-card:nth-child(1) { animation-delay: 0.05s; }
+.chart-card:nth-child(2) { animation-delay: 0.1s; }
+.chart-card:nth-child(3) { animation-delay: 0.15s; }
+.chart-card:nth-child(4) { animation-delay: 0.2s; }
 
 .key-metrics {
   display: flex;
@@ -69,7 +92,13 @@ body {
   text-align: center;
   font-weight: bold;
   min-width: 200px;
+  animation: fadeScaleIn 0.4s ease-out both;
 }
+
+.metric-card:nth-child(1) { animation-delay: 0.05s; }
+.metric-card:nth-child(2) { animation-delay: 0.1s; }
+.metric-card:nth-child(3) { animation-delay: 0.15s; }
+.metric-card:nth-child(4) { animation-delay: 0.2s; }
 
 .market-trends {
   margin: 30px 0;
@@ -102,7 +131,13 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease-in-out, opacity 0.5s ease;
   min-width: 200px;
+  animation: fadeScaleIn 0.4s ease-out both;
 }
+
+.recommendation-item:nth-child(1) { animation-delay: 0.05s; }
+.recommendation-item:nth-child(2) { animation-delay: 0.1s; }
+.recommendation-item:nth-child(3) { animation-delay: 0.15s; }
+.recommendation-item:nth-child(4) { animation-delay: 0.2s; }
 
 .recommendation-item:hover {
   background-color: #043ad0;
@@ -160,7 +195,13 @@ body {
   max-width: 350px;
   height: auto;
   margin: auto;
+  animation: fadeScaleIn 0.4s ease-out both;
 }
+
+.trend-card:nth-child(1) { animation-delay: 0.05s; }
+.trend-card:nth-child(2) { animation-delay: 0.1s; }
+.trend-card:nth-child(3) { animation-delay: 0.15s; }
+.trend-card:nth-child(4) { animation-delay: 0.2s; }
 
 .location-filters,
 .filters,
@@ -232,7 +273,13 @@ body {
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  animation: fadeScaleIn 0.4s ease-out both;
 }
+
+.neighborhood-card:nth-child(1) { animation-delay: 0.05s; }
+.neighborhood-card:nth-child(2) { animation-delay: 0.1s; }
+.neighborhood-card:nth-child(3) { animation-delay: 0.15s; }
+.neighborhood-card:nth-child(4) { animation-delay: 0.2s; }
 
 .neighborhood-card img {
   width: 100%;
