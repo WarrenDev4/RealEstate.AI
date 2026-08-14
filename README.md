@@ -1,6 +1,6 @@
 ![RealEstate AI Logo (Black)](https://github.com/user-attachments/assets/ad231900-5d86-4367-9e41-12a3388eb2fe)
-A multi-service real estate analytics system using Spring Boot 4 with Spring AI integration for the RESTAPI and XGBoost gradient boosting for property valuation predictions. The architecture demonstrates service-to-service communication with a Python ML microservice, React frontend, and embedded H2 database.
+RealEstate.AI was supposed to an AI real estate tool designed to analyze market data that provides insights into market trends, neighborhood analysis, investment forecasting, and comparable sales data. 
 
-Tools being used:  Spring Boot, React 19, TypeScript, Tailwind CSS, Plotly.js, Axios, Spring AI, Spring Data JPA, Swagger, Tomcat, FastAPI, Pandas, PostgreSQL, Google Cloud Compute, Poetry (Python), Maven (Java), Java, Maven, Poetry, VSCode.
+Tools being used:  Spring Boot, React, TypeScript, Tailwind CSS, Plotly.js, Axios, Spring AI, Spring Data JPA, Swagger, Tomcat, Amazon Web Servicces.
 
-**This is an updated and streamlined project to add AI Engineering practices. More information will be coming soon.**
+**I am going to update and streamlined this entire project to add new features and build an overall better app. More information will be coming soon.**
